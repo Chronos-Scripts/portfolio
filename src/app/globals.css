@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* Assuming 'inter' is a font family */
+  background-color: #090811; /* bg-gray-50 */
+  color: rgb(40, 36, 70); /* text-gray-950 */
+  position: relative;
+  padding-top: 7rem; /* pt-28 */
+}
+
+@media (min-width: 640px) {
+  body {
+    padding-top: 9rem; /* sm:pt-36 */
+  }
+}
+
+.bg-pink {
+  background-color: #1a1b2e;
+  position: absolute;
+  top: -6rem;
+  z-index: -10;
+  right: 11rem;
+  height: 31.25rem;
+  width: 31.25rem;
+  border-radius: 50%;
+  filter: blur(10rem);
+}
+
+@media (min-width: 640px) {
+  .bg-pink {
+    width: 68.75rem; /* sm:w-[68.75rem] */
+  }
+}
+
+.bg-purple {
+  background-color: #12121f;
+  position: absolute;
+  top: -1rem;
+  z-index: -10;
+  left: -35rem;
+  height: 31.25rem;
+  width: 50rem;
+  border-radius: 50%;
+  filter: blur(10rem);
+}
+
+@media (min-width: 640px) {
+  .bg-purple {
+    width: 68.75rem; /* sm:w-[68.75rem] */
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-purple {
+    left: -33rem; /* md:left-[-33rem] */
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg-purple {
+    left: -28rem; /* lg:left-[-28rem] */
+  }
+}
+
+@media (min-width: 1280px) {
+  .bg-purple {
+    left: -15rem; /* xl:left-[-15rem] */
+  }
+}
+
+@media (min-width: 1536px) {
+  .bg-purple {
+    left: -5rem; /* 2xl:left-[-5rem] */
+  }
+}
