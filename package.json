@@ -1,0 +1,15 @@
+{
+  "name": "html-portfolio",
+  "version": "1.0.0",
+  "main": "script.ts",
+  "scripts": {
+    "test": "start index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^4.0.3",
+    "typescript": "^5.7.3"
+  }
+}
