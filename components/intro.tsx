@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { BsArrowRight } from 'react-icons/bs'
 import { FaGithubSquare } from 'react-icons/fa'
-import { useSectionInView } from '@/lib/hooks'
+import { useSectionInView } from '../lib/hooks'
 
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.6)
@@ -57,7 +57,7 @@ export default function Intro() {
       <motion.h1
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl, text-white"
       >
         Welcome, <span className="font-bold">I'm Chronos!</span> A highly skilled Roblox and web developer with over <span className="font-bold">one year</span> of hands-on experience. I am <span className="font-bold">deeply passionate</span> about <span className="font-bold">cutting-edge technology</span> and <span className="font-bold">computer science</span>, constantly pushing the boundaries of innovation.
       </motion.h1>
@@ -85,7 +85,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="https://github.com/ idk i forgot my user"
+          href="https://github.com/Chronos-Scripts"
           target="_blank"
           className="bg-white p-4 flex items-center gap-2 text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition border border-black/10 cursor-pointer rounded-full"
         >

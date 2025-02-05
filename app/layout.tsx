@@ -1,9 +1,7 @@
-import Header from '@/components/header'
+import Header from '../components/header'
 import './globals.css'
-import { Inter } from 'next/font/google'
-import ActiveSectionContextProvider from '@/context/active-section-context'
-
-const inter = Inter({ subsets: ['latin'] })
+import ActiveSectionContextProvider from '../context/active-section-context'
+import Footer from '../components/footer'
 
 export const metadata = {
   title: "Chronos's portfolio ♥",
@@ -25,6 +23,7 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
           <Header />
           {children}
+          <Footer/>
         </ActiveSectionContextProvider>
       </body>
     </html>
