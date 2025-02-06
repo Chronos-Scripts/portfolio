@@ -54,6 +54,8 @@ export default function Project({
               
               hidden
 
+              max-w-[28rem]
+
               sm:block
 
               group-even:group-hover:translate-x-3
