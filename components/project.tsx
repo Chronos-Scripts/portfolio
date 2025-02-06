@@ -64,7 +64,7 @@ export default function Project({
 
               group-even:right-[initial]
               group-even:-left-40
-              transition top-8 w-[24rem]
+              transition top-8
               rounded-t-lg shadow-md -right-40 shadow-white"
         src={imageUrl}
         quality={95}
