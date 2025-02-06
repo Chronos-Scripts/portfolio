@@ -31,7 +31,7 @@ export default function Project({
       ref={ref}
     >
     <a href={url} target="_blank">
-      <section className="hover:bg-[#12121f] transition rounded-lg bg-[#1a1b2e] max-w-[48rem] w-[39rem] max-h-[20rem] sm:h-[20rem] relative sm:group-even:pl-8 border-black/5 overflow-hidden sm:pr-8">
+      <section className="hover:bg-[#12121f] transition rounded-lg bg-[#1a1b2e] max-w-[48rem] max-h-[20rem] sm:h-[20rem] relative sm:group-even:pl-8 border-black/5 overflow-hidden sm:pr-8 tracking-wider">
         <div className="sm:group-even:ml-[18rem] pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full">
         <h3 className="text-2xl font-bold text-white">{title}</h3>
         <p className="mt-2 leading-relaxed text-[#4a4a4a]">{description}</p>
@@ -54,8 +54,6 @@ export default function Project({
               
               hidden
 
-              max-w-[28rem]
-
               sm:block
 
               group-even:group-hover:translate-x-3
@@ -64,7 +62,7 @@ export default function Project({
 
               group-even:right-[initial]
               group-even:-left-40
-              transition top-8
+              transition top-8 w-[24rem]
               rounded-t-lg shadow-md -right-40 shadow-white"
         src={imageUrl}
         quality={95}

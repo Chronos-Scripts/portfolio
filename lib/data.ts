@@ -29,7 +29,7 @@ export const projectsData = [
   {
     title: 'this is it',
     description:
-      'i made this portfolio with no work to show',
+      'i made this portfolio with no work to show, blinking twice.',
     tags: ['sad'],
     imageUrl: wcs,
     url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
